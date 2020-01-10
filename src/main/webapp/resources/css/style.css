@@ -1,0 +1,660 @@
+body {
+    overflow-x: hidden;
+    font-family:arabic;
+    outline: none !important;
+    -webkit-outline:none !important;
+}
+@font-face {
+    font-family: font;
+    src: url(../fonts/BSEPIDEH.TTF);
+}
+@font-face {
+    font-family: fonts;
+    src: url(../fonts/BARABICS.TTF);
+}
+@font-face{
+    font-family: arabic;
+    src:url(../fonts/GE_SS_Unique_Light.otf)
+}
+@font-face{
+    font-family: arabics;
+    src:url(../fonts/GE_SS_Unique_Bold.otf)
+}
+
+.text-muted {
+    color: #777
+}
+.text-primary {
+    color: #4099FF
+}
+p {
+    font-size: 14px;
+    line-height: 1.75
+}
+p.large {
+    font-size: 16px
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    
+}
+a {
+    color: #4099FF
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #4099FF
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+.img-centered {
+    margin: 0 auto
+}
+.bg-light-gray {
+    background-color: #f7f7f7
+}
+.bg-darkest-gray {
+    background-color: #222
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4099FF;
+    border-color: #4099FF;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: 4099FF;
+    border-color: #f6bf01
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #4099FF;
+    border-color: #4099FF
+}
+.btn-primary .badge {
+    color: #4099FF;
+    background-color: #fff
+}
+.btn-xl {
+    color: #fff;
+    background-color: #4099FF;
+    border-color: #4099FF;
+    font-family:arabic;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 12px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: 4099FF;
+    border-color: #4099FF
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none
+}
+.navbar-header{
+    font-family: arabic-bold;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    background-color: #4099FF;
+    border-color: #4099FF
+}
+.btn-xl .badge {
+    color: #4099FF;
+    background-color: #fff
+}
+.intro-lead-in h3{
+    color: #fff;
+    font-family: arabic;
+    font-size: normal;
+    margin: 0px !important;
+    text-align: center;
+}
+form input{
+	text-align: right;
+}
+.form input{
+    width:90%;
+    font-size: 12pt;
+    padding: 15px;
+    height: auto;
+    border: 0px;
+    transition: all ease-in-out .2s;
+    outline: none;
+}
+.form input:focus{
+    color: #fff;
+    background-color: #222;
+    width: 100%;
+}
+.form
+.navbar-default {
+    background-color: #222;
+    border-color: transparent
+}
+.navbar-default .navbar-brand {
+    color: #4099FF;
+    font-family: arabic;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fff;
+}
+.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, .02)
+}
+.navbar-default .navbar-toggle {
+    background-color: #4099FF;
+    border-color: #4099FF
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #4099FF
+}
+.navbar-default .nav li a {
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color:#fff;
+}
+.dropdown-menu li a{
+    color: #777 !important;
+    padding: 10px;
+    display: block;
+    text-align: right;
+}
+.dropdown-menu li:hover a{
+    color: #fff !important;
+    background-color: #4099FF;
+}
+.dropdown ul{
+    padding: 0px;
+}
+.dropdown-menu li{
+    width: 100%;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #4099FF;
+    outline: 0
+}
+.navbar-brand{
+    float: right;
+}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #4099FF;
+    transition: all .2s ease-in-out;
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: 4099FF
+}
+@media (min-width:768px) {
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0
+    }
+    .navbar-left li{float: right;}
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #222;
+        padding: 0px;
+        box-shadow: 0px 0px 2px #222;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+}
+header {
+    background-image: url(../img/vote.jpg);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #555;
+    height: 100%;
+    padding: 50px;
+}
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+
+@media (min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px
+    }
+    header .intro-text .intro-lead-in {
+        font-size: 40px;
+        margin-bottom: 25px
+    }
+}
+section {
+    padding: 100px 0
+}
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: arabic;
+}
+section h3.section-subheading {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px
+}
+@media (min-width:768px) {
+    section {
+        padding: 150px 0
+    }
+}
+#services{
+	text-align: right;
+}
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-family: arabic;
+}
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(64,153,255,.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px
+}
+.heading{
+    font-family: arabic;
+    color: #555;
+}
+.sub-title{
+    font-family: arabic;
+    color: #888;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0
+}
+.cont{
+    display: inline-block;
+    padding: 15px;
+    border:2px solid #4099FF;
+    cursor: default;
+    transition:  all .2s ease-in-out;
+}
+.cont:hover{
+    background-color: #4099FF;
+}
+.cont:hover h3,
+.cont:hover h4{
+    color: #fff;
+}
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+    text-transform: none;
+    margin: 0;
+    font-family: arabic;
+}
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0
+}
+#portfolio * {
+    z-index: 2
+}
+@media (min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+.clients img{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+aside.clients img {
+    margin: 50px auto
+}
+footer {
+    padding: 15px 0;
+    text-align: center;
+    background-color:#222;
+}
+footer span.copyright {
+    line-height: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+    color: #eee
+}
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+ul.social-buttons {
+    margin-bottom: 0
+}
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    padding-top: 10;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    background-color: #333;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #4099FF
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0
+}
+::-moz-selection {
+    text-shadow: none;
+    background: #4099FF
+}
+::selection {
+    text-shadow: none;
+    background: #4099FF
+}
+img::selection {
+    background: 0 0
+}
+img::-moz-selection {
+    background: 0 0
+}
+body {
+    webkit-tap-highlight-color: #4099FF
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  text-align: center;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+  text-align:right;
+}
+table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }
+.src-image {
+  display: none;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: rgb(136, 172, 217);
+}
+
+.card .header-bg {
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px #FFF solid;
+  background-color: #333;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+#svg-image-blur { height: 220px; width: 320px; }
+#svg-image:hover { filter:url(#blur-effect-1); }
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.card .avatar img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(0,0,30,0.8);
+}    
+    
+  
