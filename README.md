@@ -1,1 +1,1 @@
-Vote System
+- Intelligent Voting System based on fuzzy logic – Implemented in Java Spring framework using Hibernate framework for connection with database, bootstrap for front-end and Enforcement learning as a machine learning technique.
